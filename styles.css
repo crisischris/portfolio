@@ -1,0 +1,146 @@
+#main{
+  background-color: rgb(244, 244, 244);
+  /* background-color: white; */
+  /* background-color: #CFDFFE; */
+  overflow: visible;
+}
+
+body{
+  display: block;
+  margin: 0px;
+}
+
+#navMain{
+  list-style-type: none;
+  margin: 0;
+  padding: 100;
+  padding-top: 1%;
+  overflow:visible;
+  text-align: right;
+  height: 100px;
+
+}
+
+#navBar{
+  float: right;
+  cursor:default;
+
+}
+#navBar.name{
+  float: left;
+  font-size: 32px;
+  font-weight:400;
+  /* padding-left: ; */
+
+}
+
+li a{
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight:400;
+}
+
+li{
+  font-family: Avenir Next;
+}
+
+li a:hover{
+  color: rgb(44, 44, 44);
+  font-weight:normal;
+}
+
+#current{
+  color: rgb(44, 44, 44);
+}
+
+#imgTitle{
+  font-family: Avenir Next;
+  padding-left: 8px;
+  font-weight:300;
+  color: rgb(44, 44, 44);
+}
+
+#paragraph.bold{
+  font-size: 32px;
+  font-weight: 600;
+}
+#paragraph{
+  font-family: Avenir Next;
+  font-weight: 300;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.row {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  padding: 0 36px;
+}
+#img1 {
+  width: 200px;
+  height: 400px;
+  margin-right: 30%;
+  position:absolute;
+}
+
+#img2 {
+  width: 200px;
+  height: 400px;
+  margin-left: 80%;
+  position:absolute;
+}
+
+
+/* Create two equal columns that sits next to each other */
+.column {
+  /* flex: 50%; */
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+#imgTitle{
+padding: 4px;
+}
+/* //////////////// */
+
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+  overflow: scroll;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  font-family: Avenir Next;
+  overflow: scroll;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(44, 44, 44);
+  padding: 12px 20px;
+  text-decoration: none;
+  display:table;
+  overflow: scroll;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display:inline;}
